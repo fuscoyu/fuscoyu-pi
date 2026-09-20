@@ -1,6 +1,6 @@
-# bestony-pi-preset
+# fuscoyu-pi-preset
 
-Bestony 的 [Pi](https://pi.dev) coding agent preset。
+fuscoyu 的 [Pi](https://pi.dev) coding agent preset。
 
 通过 Pi Package 打包并分发个人常用的 **extensions / skills / prompts / themes**，安装后即可在 Pi 中自动加载。
 
@@ -10,34 +10,34 @@ Bestony 的 [Pi](https://pi.dev) coding agent preset。
 
 ```bash
 # 从本地路径安装（开发中）
-pi install /absolute/path/to/bestony-pi
-pi install ./relative/path/to/bestony-pi
+pi install /absolute/path/to/fuscoyu-pi
+pi install ./relative/path/to/fuscoyu-pi
 
 # 从 git 安装（发布后）
-pi install git:github.com/bestony/bestony-pi
-pi install https://github.com/bestony/bestony-pi
+pi install git:github.com/fuscoyu/fuscoyu-pi
+pi install https://github.com/fuscoyu/fuscoyu-pi
 
 # 从 npm 安装（发布后）
-pi install npm:bestony-pi-preset
+pi install npm:fuscoyu-pi-preset
 ```
 
 仅当前会话试用（不写入 settings）：
 
 ```bash
-pi -e /path/to/bestony-pi
-pi -e git:github.com/bestony/bestony-pi
+pi -e /path/to/fuscoyu-pi
+pi -e git:github.com/fuscoyu/fuscoyu-pi
 ```
 
 安装到项目级（写入 `.pi/settings.json`，可团队共享）：
 
 ```bash
-pi install -l /path/to/bestony-pi
+pi install -l /path/to/fuscoyu-pi
 ```
 
 ## 卸载 / 管理
 
 ```bash
-pi remove npm:bestony-pi-preset   # 或对应 source
+pi remove npm:fuscoyu-pi-preset   # 或对应 source
 pi list
 pi update --extensions
 pi config                         # 启用/禁用具体资源
@@ -46,7 +46,7 @@ pi config                         # 启用/禁用具体资源
 ## 包结构
 
 ```
-bestony-pi/
+fuscoyu-pi/
 ├── package.json          # pi manifest + pi-package keyword
 ├── README.md
 ├── extensions/           # .ts / .js 扩展
@@ -59,7 +59,7 @@ bestony-pi/
 
 ```json
 {
-  "name": "bestony-pi-preset",
+  "name": "fuscoyu-pi-preset",
   "keywords": ["pi-package"],
   "pi": {
     "extensions": ["./extensions"],
@@ -150,7 +150,7 @@ Bot 自己的 `chore(release):` 提交不会再次触发发布，避免循环。
 
 首次启用前请确认：
 
-- npm 包 Settings → Trusted Publisher 指向 `bestony` / `bestony-pi` / `daily-release.yml`
+- npm 包 Settings → Trusted Publisher 指向 `fuscoyu` / `fuscoyu-pi` / `daily-release.yml`
 - 仓库 Settings → Actions → Workflow permissions 为 **Read and write**
 
 ### GitHub Releases and release notes
@@ -175,7 +175,7 @@ states `Maintenance release with no user-facing changes.`
 If a release with the same tag already exists, the workflow logs the condition
 and skips creation; any other `gh release create` failure fails the workflow.
 Published releases are visible at
-[GitHub Releases](https://github.com/bestony/bestony-pi/releases).
+[GitHub Releases](https://github.com/fuscoyu/fuscoyu-pi/releases).
 
 ## 当前本地资源
 

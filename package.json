@@ -1,9 +1,9 @@
 {
-  "name": "bestony-pi-preset",
+  "name": "fuscoyu-pi-preset",
   "version": "0.0.56",
-  "description": "Bestony's personal Pi coding agent preset — skills, extensions, prompts, and themes.",
+  "description": "fuscoyu's personal Pi coding agent preset — skills, extensions, prompts, and themes.",
   "license": "MIT",
-  "author": "bestony",
+  "author": "fuscoyu",
   "type": "module",
   "keywords": [
     "pi-package",
@@ -24,12 +24,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bestony/bestony-pi.git"
+    "url": "git+https://github.com/fuscoyu/fuscoyu-pi.git"
   },
   "bugs": {
-    "url": "https://github.com/bestony/bestony-pi/issues"
+    "url": "https://github.com/fuscoyu/fuscoyu-pi/issues"
   },
-  "homepage": "https://github.com/bestony/bestony-pi#readme",
+  "homepage": "https://github.com/fuscoyu/fuscoyu-pi#readme",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
