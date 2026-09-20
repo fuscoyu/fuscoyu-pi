@@ -107,7 +107,7 @@ pi install .
 
 | 包 | 提供 |
 |----|------|
-| [pi-web-access](https://www.npmjs.com/package/pi-web-access) | Web 搜索 / URL 抓取 / GitHub / YouTube 等扩展 + librarian skill |
+| [pi-web-access](https://www.npmjs.com/package/pi-web-access) | Web 搜索 / URL 抓取 / GitHub / YouTube 等扩展 |
 | [pi-init](https://www.npmjs.com/package/pi-init) | `init` skill（生成/更新 AGENTS.md） |
 | [pi-mcp-adapter](https://www.npmjs.com/package/pi-mcp-adapter) | MCP 协议适配扩展 |
 | [pi-cache-optimizer](https://www.npmjs.com/package/pi-cache-optimizer) | Prompt/KV cache 命中优化 |
@@ -116,7 +116,6 @@ pi install .
 | [@dietrichgebert/ponytail](https://www.npmjs.com/package/@dietrichgebert/ponytail) | `pi-extension` + `skills` for status line and agent-mode tooling |
 | [@narumitw/pi-goal](https://www.npmjs.com/package/@narumitw/pi-goal) | Autonomous single-objective `/goal` completion extension |
 | [@narumitw/pi-plan-mode](https://www.npmjs.com/package/@narumitw/pi-plan-mode) | Codex 风格的只读 `/plan` 协作模式 |
-| [pi-xai-oauth](https://www.npmjs.com/package/pi-xai-oauth) | xAI OAuth provider / authenticated Grok model catalog |
 | [@tintinweb/pi-subagents](https://www.npmjs.com/package/@tintinweb/pi-subagents) | Claude Code 风格的自主 sub-agents |
 | [@tintinweb/pi-tasks](https://www.npmjs.com/package/@tintinweb/pi-tasks) | Claude Code-style task tracking and coordination |
 | [@quintinshaw/pi-dynamic-workflows](https://www.npmjs.com/package/@quintinshaw/pi-dynamic-workflows) | 动态 workflow（`workflow` 工具、`/workflows` 等） |
